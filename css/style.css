@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: bisque;
+    font-family: "Public Sans", sans-serif;
+    font-size: 1.2rem;
+    min-height: 100%;
+}
+
+#la-figura{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+figure{
+    text-align: center;
+    
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#cronologia{
+    text-align: center;
+    color: darkslategray;
+}
+
+#tribute-info{
+    background-color: darkgray;
+}
+
+.fila-ano{
+    display: grid;
+    padding: 5px;
+
+}
+.cronologia{
+    border-style: dashed;
+    margin: 25px;
+}
